@@ -15,6 +15,7 @@ export function simpleSort(arr){
         }
     }*/
 
+    //Insertion sorting using swap
     for(let i = 1 ; i < arr.length ; i++){
         let j = i;
         while(arr[j]>arr[j+1]){
